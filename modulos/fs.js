@@ -24,5 +24,16 @@ function escribir(ruta, contenido, cb) {
 }
 
 //leer(__dirname + '/archivos.txt', console.log)
-escribir(__dirname + '/archivo.txt', 'Soy un archivo creado nuevo hdjhdakjdhadjkashkjsdh dsasas', console.log)
-    //borrar(__dirname + '/archivos.txt', console.log)
+//escribir(__dirname + '/archivo.txt', 'Soy un archivo creado nuevo hdjhdakjdhadjkashkjsdh dsasas', console.log)
+//borrar(__dirname + '/archivos.txt', console.log)
+
+
+function leerPromise(ruta, cb) {
+    return new Promise(function(resolve, reject) {
+        let read = fs.readFile(ruta, (error, data) => {
+            cb(data.toString());
+        })
+        resolve(read)
+    }, 5000)
+}
+leerPromise(__dirname + '/archivo.txt', console.log)

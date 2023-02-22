@@ -27,13 +27,13 @@ async function hablar(callbacks) {
 }
 
 async function main() {
-    let nombre = await soyAsincrona('Victor');
-    await hablar();
-    await hablar();
-    await hablar();
+    let nombre = await soyAsincrona('Victor')
+    await hablar()
+    await hablar()
+    await hablar()
     await adios(nombre)
-    console.log('Terminamos proceso')
+    console.log('Terminamos')
 }
-console.log('Epezamos el proceso');
-main();
-console.log('Terminamos proceso');
+console.log('Epezamos el proceso')
+main()
+console.log('Terminamos proceso')

@@ -10,7 +10,7 @@ let intervalo = setInterval(function() {
 }, 1000)
 
 //Modulos
-//require();
+require();
 
 global.miVariable = 'El valor';
 
