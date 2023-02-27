@@ -3,3 +3,5 @@ const isOdd = require('is-odd');
 console.log(isOdd('5'));
 console.log(isOdd(110));
 console.log(isOdd(3 * 3));
+
+//

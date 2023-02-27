@@ -16,3 +16,5 @@ for (let i = 0; i < 26; i++) {
 }
 
 console.log(abc.toString());
+
+//Buffer son datos binarios que se mueven de un lado a otro, siendo el espacion de memoria (RAM) en la que se almacena datos de manera temporal, siendo no un string encriptado

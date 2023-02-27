@@ -1,4 +1,4 @@
-console.log("Hola Mundo");
+console.log('Hola Mundo');
 /*SETINTERVA - RSecive dos arguntos uno es la funcion y el segundo el tiempo que se va ejecutar
  *
  */
@@ -13,11 +13,11 @@ setInterval(function() {
             var a = i + k;
         } catch (e) {
             console.log('Error en el sistema');
-
         } finally {
             console.log('Finalizado el programa');
         }
-
     }
 }, 1000);
 console.log('Segunda Instruccion');
+
+//pm2 es ejecutar procesos en node de produccion

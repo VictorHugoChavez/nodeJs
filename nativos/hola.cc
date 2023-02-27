@@ -1,5 +1,5 @@
 #include <node.h>
-
+//los lenguales que se pueden desarrollar modulos nativos para NODE.JS es en cualquir, pero c++ no
 namespace demo {
 
 using v8::FunctionCallbackInfo;
